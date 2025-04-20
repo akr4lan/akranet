@@ -16,9 +16,10 @@ p {
 }
 
 figcaption {
-    color:whitesmoke;
-
+    color:rgb(145, 145, 145);
+    font-size: 0.8rem;
 }
+
 
 img {
     width: 40%;
@@ -36,12 +37,28 @@ img {
     justify-content: left;
 }
 
-.img_flotante {
+.img_flotante_dcha {
     float: right;
+    margin: 0 10px 10px 20px;
+    text-align: center;
+}
+
+.img_flotante_dcha img {
     height: 200px; 
     width: auto;
-    margin: 0 0 10px 20px;
-    object-fit: contain;
+    display: block;
+}
+
+.img_flotante_izda {
+    float: left;
+    margin: 0 10px 10px 20px;
+    text-align: center;
+}
+
+.img_flotante_izda img {
+    height: 200px; 
+    width: auto;
+    display: block;
 }
 
 footer {
